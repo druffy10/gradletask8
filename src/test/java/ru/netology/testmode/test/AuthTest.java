@@ -9,9 +9,9 @@ import java.time.Duration;
 import static com.codeborne.selenide.Condition.*;
 import static com.codeborne.selenide.Selectors.withText;
 import static com.codeborne.selenide.Selenide.*;
-import static ru.netology.testmode.data.DataGenerator.Registration.*;
-import static ru.netology.testmode.data.DataGenerator.getRandomLogin;
-import static ru.netology.testmode.data.DataGenerator.getRandomPassword;
+import static ru.netology.testmode.test.DataGenerator.Registration.*;
+import static ru.netology.testmode.test.DataGenerator.getRandomLogin;
+import static ru.netology.testmode.test.DataGenerator.getRandomPassword;
 
 class AuthTest {
 
